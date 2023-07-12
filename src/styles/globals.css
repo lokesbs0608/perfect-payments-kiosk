@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,4 +19,18 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+}
+
+
+
+.theme_bg {
+  background-color: #27272b;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homePage_contaniner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
