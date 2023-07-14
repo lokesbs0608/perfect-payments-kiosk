@@ -1,27 +1,30 @@
 .shadow_container {
-  min-height: 30rem;
-  max-width: 25rem;
+  min-height: 25rem;
+  max-width: 20rem;
   align-items: flex-end;
   display: flex;
+  width: 100%;
 }
 
 .container {
   width: 100%;
   border-radius: 8px;
-  background: linear-gradient(to right, #171618 20%, #ffffff00);
+  background: linear-gradient(to right,   #002640, 50%, #1f1d2100);
   min-height: 20rem;
   position: relative;
+  padding: 10px 20px;
 }
 .img_cont {
   position: absolute;
-  top: -20%;
-  right: 0%;
+  top: -30%;
+  right: -20%;
   color: #fff;
 }
 
 .content_cont {
-position: absolute;
-top: 40%;
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
   h1 {
     color: #e9c406;
     font-size: 2.5rem;

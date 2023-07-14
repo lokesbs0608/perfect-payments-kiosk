@@ -4,11 +4,19 @@ import styles from "./styles.module.scss";
 interface Props {
   title: string;
   onClick: (e: any) => void;
+  backGroundColor?: string;
 }
 
-const CustomButton = ({ title, onClick }: Props) => {
+const CustomButton = ({ title, onClick, backGroundColor }: Props) => {
   return (
-    <div onClick={onClick} className={styles.container}>
+    <div
+      onClick={onClick}
+      style={{
+        backgroundColor: backGroundColor ? backGroundColor : "",
+        color: backGroundColor ? "#fff" : "",
+      }}
+      className={`${styles.container}`}
+    >
       {title}
     </div>
   );
