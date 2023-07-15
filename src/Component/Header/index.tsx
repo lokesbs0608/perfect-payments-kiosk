@@ -3,6 +3,7 @@ import styles from "./styles.module.scss";
 import CustomButton from "../atoms/CustomButton";
 import Image from "next/image";
 import PerfectLogo from "../../assets/Icons/PerfectP.svg";
+import BasicMenu from "../Menubar";
 const Header = () => {
   const handleClick = () => {
     alert("ok");
@@ -37,11 +38,11 @@ const Header = () => {
         </div>
       </div>
       <div className="d-flex mt-4 gap-5 justify-content-between">
-        <div className={styles.nav_text}>Products</div>{" "}
-        <div className={styles.nav_text}>Join Us</div>{" "}
-        <div className={styles.nav_text}>About Us</div>
-        <div className={styles.nav_text}>Contact Us</div>
-        <div className={styles.nav_text}>Book a Demo</div>
+        <BasicMenu/>
+        <a className={styles.nav_text}>Join Us</a>
+        <a className={styles.nav_text}>About Us</a>
+        <a href="#contactus" className={styles.nav_text}>Contact Us</a>
+        <a className={styles.nav_text}>Book a Demo</a>
       </div>
     </div>
   );

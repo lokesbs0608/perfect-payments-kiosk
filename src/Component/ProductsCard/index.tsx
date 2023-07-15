@@ -24,7 +24,7 @@ const ProductsCard = ({ title, height, width }: Props) => {
         </div>
         <div className={styles.content_cont}>
           <h1>Perfect</h1>
-          <h1 className="text-white">{title}</h1>
+          <h1 style={{color:'#FFD500'}} >{title}</h1>
           <p className="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nulla?
           </p>

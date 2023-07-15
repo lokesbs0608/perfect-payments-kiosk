@@ -22,7 +22,7 @@
     width: 100%;
     border-radius: 8px;
     background: linear-gradient(to right, #171d21, 50%, #1f1d2100);
-    padding: 10px 20px;
+    padding: 20px 20px;
     min-height: 10rem;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@
     justify-content: center;
     gap: 2rem;
     color: #fff;
+    padding-bottom: 6rem;
 }
 
 .image_card_cont {
@@ -51,5 +52,10 @@
     position: absolute;
     top: -10%;
     left: 19%;
+  }
+  .image_cont2 {
+    position: absolute;
+    left: -10%;
+    bottom: -23%;
   }
   

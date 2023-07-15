@@ -8,12 +8,12 @@ import Checkbox from "../../assets/Icons/Checkbox.svg";
 const Security = () => {
   const handleClick = () => {};
   return (
-    <div>
+    <div style={{maxWidth:'1000px',margin:'0 auto'}}>
       <div className={styles.heading}>SECURITY</div>
       <div className={styles.heading2}>Security Features</div>
       <div className={styles.bg_shadow}>
-        <div className=" d-flex w-100  justify-content-center">
-          <div className="mr-5">
+        <div className=" d-flex w-100  align-items-center  justify-content-center">
+          <div className=" mr-5">
             <div className={styles.image_card_cont}>
               <div className={styles.card_container}>
                 <div className={styles.image_cont}>
@@ -22,7 +22,7 @@ const Security = () => {
               </div>
             </div>
           </div>
-          <div className=" w-50 ml-5 mt-5">
+          <div className="  ml-5 mt-5">
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Lorem ipsum dolor sit <br /> amet consectetur.
             </h1>
@@ -54,8 +54,8 @@ const Security = () => {
             </p>
           </div>
         </div>
-        <div className="mt-3 d-flex w-100 align-items-center justify-content-center gap-5">
-          <div className="ml-5">
+        <div className="mt-3 d-flex w-100  justify-content-center  gap-5">
+          <div className="ml-5  ">
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Experience style and <br /> functionality with our <br />{" "}
               customizable kiosks.
@@ -64,17 +64,17 @@ const Security = () => {
               className="mt-3"
               style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
-              Seamlessly integrate our sleek kiosks into your <br /> business
-              environment for a modernized brand <br /> image.
+              Seamlessly integrate our sleek kiosks <br /> into your  business
+              environment for a <br /> modernized brand image.
             </p>
-            <div className="w-80 mt-3">
+            <div className="w-60 mt-3">
               <CustomButton onClick={handleClick} title="Book a Demo" />
             </div>
           </div>
           <div className="mr-5">
             <div className={styles.image_card_cont}>
               <div className={styles.card_container}></div>
-              <div className={styles.image_cont}>
+              <div className={styles.image_cont2}>
                 <Image width={300} src={MainKiosk} alt="main" />
               </div>
             </div>

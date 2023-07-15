@@ -2,14 +2,12 @@ import React, { useState } from "react";
 import styles from "./styles.module.scss";
 import CutomInput from "@/Component/CustomInput";
 import CustomButton from "@/Component/atoms/CustomButton";
-import { Input } from "antd";
 import Image from "next/image";
 import DinnersIcon from "../../assets/Images/Dinnersclub.svg";
 import Visa from "../../assets/Images/Visa.svg";
 import MatserIcon from "../../assets/Images/Mastercard.svg";
 import AmericaIcon from "../../assets/Images/American.svg";
-
-const { TextArea } = Input;
+import TextField from "@mui/material/TextField";
 
 const ContacUs = () => {
   const [value, setValue] = useState("");
@@ -17,7 +15,7 @@ const ContacUs = () => {
     console.log(e.target.value);
   };
 
-  const images = [AmericaIcon,DinnersIcon, Visa, MatserIcon, ];
+  const images = [AmericaIcon, DinnersIcon, Visa, MatserIcon];
   return (
     <div style={{ maxWidth: "900px", margin: "0 auto" }}>
       <div className={styles.heading}>CONTACT</div>
@@ -35,21 +33,16 @@ const ContacUs = () => {
           </div>
         </div>
         <div className="m-2">
-          <label style={{ fontWeight: "600" }} htmlFor="">
+          <label style={{ fontWeight: "600" }} htmlFor="message">
             Message
-          </label>
-          <TextArea
-            value={value}
-            onChange={(e) => setValue(e.target.value)}
-            autoSize={{ minRows: 7, maxRows: 8 }}
-            style={{
-              background: "#263138",
-              outline: "none",
-              borderRadius: "5px",
-              border: "0px",
-              outlineStyle: "none",
-              outlineColor: "transparent",
-            }}
+          </label> <br />
+          <TextField
+            id="standard-textarea"
+            multiline
+            name="message"
+            rows={4}
+            inputProps={{ style: { color: "#fff",outline:'none',outlineColor:'transparent' } }}
+            sx={{backgroundColor:'#263138',width:'100%',borderRadius:'5px',outline:'none',outlineColor:'transparent',input: { color: '#fffs' } }}
           />
         </div>
 
@@ -62,7 +55,7 @@ const ContacUs = () => {
           {images.map((items) => {
             return (
               <div>
-                <Image  src={items} alt="icon" />
+                <Image src={items} alt="icon" />
               </div>
             );
           })}
