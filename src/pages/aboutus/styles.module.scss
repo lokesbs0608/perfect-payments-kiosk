@@ -1,0 +1,52 @@
+.heading {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffd500;
+    text-align: center;
+    font-family: "Montserrat";
+  }
+  .heading2 {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .sub_heading {
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .shadow_bg {
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to right, #171d21, 50%, #1f1d2100);
+    padding: 10px 20px;
+    height:18rem;
+    position: relative;
+    margin-top: 3rem;
+    
+    .img_cont{
+        position: absolute;
+        top: -15%;
+        left: 10%;
+    }
+  }
+  
+  .card_heading {
+    text-align: left;
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    color: #fff;
+  }

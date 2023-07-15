@@ -1,10 +1,11 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "@/Component/Header";
-import ProductsCard from "@/Component/ProductsCard";
 import HeroSection from "./herosection";
 import Catalogue from "./catalogue";
 import Features from "./features";
+import Services from "./services";
+import Aboutus from "./aboutus";
+import OurValues from "./ourvalues";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,9 @@ export default function Home() {
         <HeroSection />
         <Catalogue />
         <Features />
+        <Services/>
+        <Aboutus/>
+        <OurValues/>
       </div>
     </div>
   );
