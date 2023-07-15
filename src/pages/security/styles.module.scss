@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400&family=Poppins:wght@400;600;700&display=swap");
+
+.heading {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffd500;
+  text-align: center;
+  font-family: "Montserrat";
+}
+.heading2 {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.bg_shadow{
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to right, #171d21, 50%, #1f1d2100);
+    padding: 10px 20px;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #fff;
+}
+
+.image_card_cont {
+    width: 20rem;
+    height: 14rem;
+    position: relative;
+    margin-top: 6rem;
+  }
+  
+  .card_container {
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to right, #2e3940, 50%, #1f1d2100);
+    padding: 10px 20px;
+    height: 15rem;
+
+  }
+  .image_cont {
+    position: absolute;
+    top: -10%;
+    left: 19%;
+  }
+  

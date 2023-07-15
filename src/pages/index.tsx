@@ -1,13 +1,15 @@
-import { Inter } from "next/font/google";
-import Header from "@/Component/Header";
+
+import Header from "../Component/Header";
 import HeroSection from "./herosection";
 import Catalogue from "./catalogue";
 import Features from "./features";
 import Services from "./services";
 import Aboutus from "./aboutus";
 import OurValues from "./ourvalues";
+import ContacUs from "./contactus";
+import Footer from "../Component/Footer";
+import Security from "./security";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -17,9 +19,12 @@ export default function Home() {
         <HeroSection />
         <Catalogue />
         <Features />
-        <Services/>
-        <Aboutus/>
-        <OurValues/>
+        <Services />
+        <Security/>
+        <Aboutus />
+        <OurValues />
+        <ContacUs />
+        <Footer/>
       </div>
     </div>
   );
