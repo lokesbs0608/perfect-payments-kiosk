@@ -8,7 +8,7 @@ import Checkbox from "../../assets/Icons/Checkbox.svg";
 const Security = () => {
   const handleClick = () => {};
   return (
-    <div style={{maxWidth:'1000px',margin:'0 auto'}}>
+    <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
       <div className={styles.heading}>SECURITY</div>
       <div className={styles.heading2}>Security Features</div>
       <div className={styles.bg_shadow}>
@@ -24,32 +24,47 @@ const Security = () => {
           </div>
           <div className="  ml-5 mt-5">
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
-              Lorem ipsum dolor sit <br /> amet consectetur.
+              Our kiosk prioritizes customer <br /> data security by
+              incorporating <br />
+              robust payment processing capabilities.
             </h1>
             <p
               className="mt-3"
-              style={{ fontSize: "20px", textAlign: "justify", color: "#fff",opacity:.9}}
+              style={{
+                fontSize: "20px",
+                textAlign: "justify",
+                color: "#fff",
+                opacity: 0.9,
+              }}
             >
-              Lorem ipsum dolor sit amet consectetur. <br /> Adipiscing volutpat
-              eget at in enim. Pulvinar <br />
-              vulputate sapien.
+              It enables seamless and secure transactions, <br /> supporting
+              various payment methods <br /> such as credit cards, mobile <br />
+              payments, and contactless options, <br /> guaranteeing peace of
+              mind for both customers <br />
+              and businesses.
               <div className="d-flex align-items-center gap-2 mt-2">
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>Lorem ipsum dolor sit, amet consectetur</div>
+                <div>100% Protected Payment Processing</div>
               </div>
               <div className="d-flex align-items-center gap-2 mt-1">
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>Lorem ipsum dolor sit, amet consectetur</div>
+                <div>Secure and Automated Transactions</div>
               </div>
               <div className="d-flex align-items-center gap-2 mt-1">
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>Lorem ipsum dolor sit, amet consectetur</div>
+                <div>Various payment methods supported</div>
+              </div>
+              <div className="d-flex align-items-center gap-2 mt-1">
+                <div>
+                  <Image src={Checkbox} alt="icon" />
+                </div>
+                <div>End-to-end data encryption software</div>
               </div>
             </p>
           </div>
@@ -64,7 +79,7 @@ const Security = () => {
               className="mt-3"
               style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
-              Seamlessly integrate our sleek kiosks <br /> into your  business
+              Seamlessly integrate our sleek kiosks <br /> into your business
               environment for a <br /> modernized brand image.
             </p>
             <div className="w-60 mt-3">

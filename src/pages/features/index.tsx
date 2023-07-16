@@ -7,7 +7,7 @@ import Icon2 from "../../assets/Illus/features2.svg";
 import Icon5 from "../../assets/Illus/features5.svg";
 import Icon3 from "../../assets/Illus/features3.svg";
 import Icon6 from "../../assets/Illus/features6.svg";
-import VerticalLine from '../../assets/Illus/VerticalLine.svg';
+import VerticalLine from "../../assets/Illus/VerticalLine.svg";
 
 const Features = () => {
   const shadowCard = (icon: any, title: string, description: string) => {
@@ -21,7 +21,7 @@ const Features = () => {
         </div>
         <div className="mt-4">
           <div className={styles.card_heading}>{title}</div>
-          <div style={{ color: "#fff" }}>{description}</div>
+          <div style={{ color: "#fff",textAlign:'left' }}>{description}</div>
         </div>
       </div>
     );
@@ -42,16 +42,16 @@ const Features = () => {
   const obj1 = [
     {
       id: 0,
-      title: "Lorem",
+      title: "Customizable and Versatile ",
       description:
-        "lorem 10 description lorem 10 description lorem 10 description",
+        "We deliver technological and aesthetic customizations with all products from the Smart, to the Indie, to the Visionary. Offering bespoke additional services to suit the needs of your business. Require a scanner? A printer? Your own logo and branding embedded on your kiosk? Here at The Perfect Kiosk we can do all of the above and more, the possibilities are endless.        ",
       icon: Icon1,
     },
     {
       id: 0,
-      title: "Lorem",
+      title: "Safe and Secure.",
       description:
-        "lorem 10 description lorem 10 description lorem 10 description",
+        "We pride ourselves on our advanced payment solutions and secure payment processing. Our focus on constantly developing our technology is optimized to offer security miles ahead of the industry standard.",
       icon: Icon4,
     },
   ];
@@ -59,32 +59,32 @@ const Features = () => {
   const obj2 = [
     {
       id: 0,
-      title: "Lorem",
+      title: "Easy installation",
       description:
-        "lorem 10 description lorem 10 description lorem 10 description",
+        "We will have our product installed into your business by an engineer, the process is simple. You will be taught the ins and outs of the machinery so you can utilize its functionality to the fullest.        ",
       icon: Icon2,
     },
     {
       id: 0,
-      title: "Lorem",
+      title: "Interactivity",
       description:
-        "lorem 10 description lorem 10 description lorem 10 description",
+        "Our products come with a large high-resolution screen, paired with touchscreen technology that grants the user accuracy and precision in selecting their desired purchases. These additions bridge the gap between practical convenience and high-spec engineering",
       icon: Icon5,
     },
   ];
   const obj3 = [
     {
       id: 0,
-      title: "Lorem",
+      title: "Accessibility ",
       description:
-        "lorem 10 description lorem 10 description lorem 10 description",
+        "Our kiosks are fitted with a chip and pin device; allocating easy integration with modern payment methods. A swipe, a tap or the insertion of a card followed by your secure pin will suffice for a quick and efficient payment. Cash payment is also an available option.",
       icon: Icon3,
     },
     {
       id: 0,
-      title: "Lorem",
+      title: "Powered by Windows",
       description:
-        "lorem 10 description lorem 10 description lorem 10 description",
+        "The Perfect kiosk contains an innovative windows system, satisfying the needs of modern day technological capabilities. You won’t find better",
       icon: Icon6,
     },
   ];
@@ -94,9 +94,9 @@ const Features = () => {
       <div className={styles.heading2}>OUR FEATURES</div>
       <div className="d-flex justify-content-between mt-5 ">
         <GridCard data={obj1} />
-        <Image src={VerticalLine} width={3}  height={100} alt="line" />
+        <Image src={VerticalLine} width={3} height={100} alt="line" />
         <GridCard data={obj2} />
-        <Image src={VerticalLine} width={3}  height={100} alt="line" />
+        <Image src={VerticalLine} width={3} height={100} alt="line" />
         <GridCard data={obj3} />
       </div>
     </div>

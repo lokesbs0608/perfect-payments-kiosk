@@ -24,21 +24,21 @@ const OurValues = () => {
   const obj = [
     {
       id: 0,
-      title: "Lorem ipsum",
-      description: "Lorem ipsum dolor sit amet consectetur. ",
+      title: "Integrity",
+      description: "Our commitment is to provide you with a service you can trust, which is why transparency is at the heart of our approach.",
       icon: Man1,
     },
     {
       id: 0,
-      title: "Lorem ipsum",
-      description: "Lorem ipsum dolor sit amet consectetur. ",
+      title: "Neutrality ",
+      description: "Having no preconceived judgments or biases allows us to embrace new ideas and practices, following that we can respond directly to your unique needs",
       icon: Man2,
       bg_color:'#171D21'
     },
     {
       id: 0,
-      title: "Lorem ipsum",
-      description: "Lorem ipsum dolor sit amet consectetur. ",
+      title: "Equality",
+      description: "Our value of the individual fosters a culture of collaboration and respect, we empower each employee, partner and consumer to strive towards their full potential within all realms of business. A win for you is a win for us!",
       icon: Man3,
     },
   ];
