@@ -44,12 +44,12 @@ const Catalogue = () => {
           Captivating and Space-Efficient <br />
           Kiosk Designs
         </h1>
-        <div className="pr-5 mt-3 d-flex w-100 align-items-center gap-5">
+        <div className="pr-5 mt-3 d-flex w-100 align-items-center justify-content-center gap-5">
           <div className="mr-5">
             <div className={styles.image_card_cont}>
               <div className={styles.card_container}></div>
               <div className={styles.image_cont}>
-                <Image width={300} src={MainKiosk} alt="main" />
+                <Image width={400} src={MainKiosk} alt="main" />
               </div>
             </div>
           </div>
