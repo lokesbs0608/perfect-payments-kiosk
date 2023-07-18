@@ -36,3 +36,16 @@ display: inline;
 .footer_icon_cont{
   width: 40%;
 }
+
+@media screen and (max-width: 992px) {
+  .container{
+    padding: 1rem;
+  }
+  .copy_right{
+    width: 100%;
+    margin: 0;
+  }
+  .options{
+    font-size: .8rem;
+  }
+}

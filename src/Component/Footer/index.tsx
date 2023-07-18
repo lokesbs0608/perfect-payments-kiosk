@@ -21,7 +21,7 @@ const Footer = () => {
         <div className={styles.footer_icon_cont}>
           <Image width={150} src={FooterIcon} alt="icons" />
         </div>
-        <div className="w-50">
+        <div className="">
           <div className="d-flex flex-wrap">
             {links.map((item, index) => {
               return (

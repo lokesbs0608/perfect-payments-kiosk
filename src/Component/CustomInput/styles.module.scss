@@ -4,14 +4,13 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   min-width: 20rem;
-
+  max-width: 20rem;
   input {
     background-color: #263138;
     border-radius: 8px;
     padding: 10px 20px;
     outline: none;
     width: 100%;
-    max-width: 330px;
   }
 }
 
@@ -19,15 +18,14 @@
   .container {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    min-width: 20rem;
-    max-width: 200px;
+    min-width: 19rem;
+    max-width: 320px;
+    max-width: 18rem;
     input {
       background-color: #263138;
       border-radius: 5px;
       padding: 10px 20px;
       outline: none;
-      max-width: 300px;
-      width: 100%;
     }
   }
 

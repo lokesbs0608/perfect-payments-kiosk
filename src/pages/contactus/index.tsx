@@ -17,36 +17,50 @@ const ContacUs = () => {
 
   const images = [AmericaIcon, DinnersIcon, Visa, MatserIcon];
   return (
-    <div style={{ margin: "0 auto" }}>
+    <div>
       <div className={styles.heading}>CONTACT</div>
       <div className={styles.heading2}>Get In Touch</div>
       <div className={styles.shadow_bg}>
-        <div className=" m-2">
+        <div className="m-2">
           <CutomInput title="Name" onChange={handleChange} />
         </div>
-        <div className="d-flex flex-wrap">
-          <div className=" m-2">
+        <div className="w-100 d-flex flex-wrap">
+          <div className="m-2">
             <CutomInput title="Email ID" onChange={handleChange} />
           </div>
-          <div className=" m-2">
-            <CutomInput title="Email Address" onChange={handleChange} />{" "}
+          <div className="m-2">
+            <CutomInput title="Email Address" onChange={handleChange} />
           </div>
         </div>
         <div className="m-2">
           <label style={{ fontWeight: "600" }} htmlFor="message">
             Message
-          </label> <br />
+          </label>{" "}
+          <br />
           <TextField
             id="standard-textarea"
             multiline
             name="message"
             rows={4}
-            inputProps={{ style: { color: "#fff",outline:'none',outlineColor:'transparent' } }}
-            sx={{backgroundColor:'#263138',width:'100%',borderRadius:'8px',outline:'none',outlineColor:'transparent',input: { color: '#fffs' } }}
+            inputProps={{
+              style: {
+                color: "#fff",
+                outline: "none",
+                outlineColor: "transparent",
+              },
+            }}
+            sx={{
+              backgroundColor: "#263138",
+              width: "100%",
+              borderRadius: "8px",
+              outline: "none",
+              outlineColor: "transparent",
+              input: { color: "#fffs" },
+            }}
           />
         </div>
 
-        <div style={{ width: "30%" }} className="m-2 mt-4">
+        <div className="m-2 mt-4">
           <CustomButton title="Submit Response" onClick={handleChange} />
         </div>
       </div>

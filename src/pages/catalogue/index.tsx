@@ -44,7 +44,7 @@ const Catalogue = () => {
           Captivating and Space-Efficient <br />
           Kiosk Designs
         </h1>
-        <div className="pr-5 mt-3 d-flex w-100 align-items-center justify-content-center gap-5">
+        <div className="pr-5 mt-3 d-flex w-100 flex-wrap align-items-center justify-content-center gap-5">
           <div className="mr-5">
             <div className={styles.image_card_cont}>
               <div className={styles.card_container}></div>
@@ -81,9 +81,9 @@ const Catalogue = () => {
         </div>
         <div
           style={{ width: "100%" }}
-          className="mt-5 d-flex w-100 align-items-center  justify-content-center gap-5"
+          className={`${styles.bloc2_mob_view} `}
         >
-          <div style={{ width: "50%" }} className="ml-5">
+          <div  className={styles.mob_width}>
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Streamlined In-Store <br />
               Engagements for Effortless <br /> Interactions
