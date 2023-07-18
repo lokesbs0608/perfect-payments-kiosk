@@ -17,7 +17,7 @@ const ContacUs = () => {
 
   const images = [AmericaIcon, DinnersIcon, Visa, MatserIcon];
   return (
-    <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+    <div style={{ margin: "0 auto" }}>
       <div className={styles.heading}>CONTACT</div>
       <div className={styles.heading2}>Get In Touch</div>
       <div className={styles.shadow_bg}>

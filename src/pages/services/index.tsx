@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 import Image from "next/image";
 import Icon1 from "../../assets/Illus/serviceicon1.svg";
 import ICon2 from "../../assets/Illus/serviceicon2.svg";
-import Icon3 from '../../assets/Illus/serviceicon3.svg'
+import Icon3 from "../../assets/Illus/serviceicon3.svg";
 const Services = () => {
   return (
     <div>
@@ -14,12 +14,11 @@ const Services = () => {
           style={{ width: "45%" }}
           className={`${styles.shadow_bg} ${styles.block1}`}
         >
-          <div className={styles.card_heading}>
-            Lorem ipsum <br /> dolor sit amet.
-          </div>
+          <div className={styles.card_heading}>Oiyaa technology</div>
           <p style={{ color: "#fff" }}>
-            Lorem ipsum dolor sit amet consectetur. Mattis in pellentesque a
-            rhoncus ipsum sit senectus tincidunt.
+            Our usage of Oiyaa software allows us to fill up quiet periods in
+            your business by offering tailored discounts and an online booking
+            service.
           </p>
           <div>
             <Image width={350} src={Icon1} alt="ok" />
@@ -29,11 +28,10 @@ const Services = () => {
           <div className={`${styles.shadow_bg} ${styles.block2} `}>
             <div style={{ width: "60%" }}>
               <div className={styles.card_heading}>
-                Lorem ipsum <br /> dolor sit amet.
+              Easytip 
               </div>
               <p style={{ color: "#fff" }}>
-                Lorem ipsum dolor sit amet consectetur. Mattis in pellentesque a
-                rhoncus ipsum sit senectus tincidunt.
+              Need a modern day solution to the tipping dilemma? Look no further than our partner
               </p>
             </div>
 
@@ -43,20 +41,17 @@ const Services = () => {
           </div>
           <div className={`${styles.shadow_bg}`}>
             <div className={`${styles.shadow_bg} ${styles.block2} `}>
-            <div>
+              <div>
                 <Image width={250} src={Icon3} alt="ok" />
               </div>
               <div style={{ width: "60%" }}>
                 <div className={styles.card_heading}>
-                  Lorem ipsum <br /> dolor sit amet.
+                Easytip 
                 </div>
                 <p style={{ color: "#fff" }}>
-                  Lorem ipsum dolor sit amet consectetur. Mattis in pellentesque
-                  a rhoncus ipsum sit senectus tincidunt.
+                creating a safe atmosphere for seamless tipping without any hassle or red tape involved
                 </p>
               </div>
-
-            
             </div>
           </div>
         </div>

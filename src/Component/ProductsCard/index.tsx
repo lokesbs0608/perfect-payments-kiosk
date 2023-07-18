@@ -10,7 +10,7 @@ interface Props {
   width?: number;
 }
 
-const ProductsCard = ({ title, height, width }: Props) => {
+const ProductsCard = ({ title, height, width,description }: Props) => {
   return (
     <div className={styles.shadow_container}>
       <div className={styles.container}>
@@ -26,7 +26,7 @@ const ProductsCard = ({ title, height, width }: Props) => {
           <h1>Perfect</h1>
           <h1 style={{color:'#FFD500'}} >{title}</h1>
           <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nulla?
+           {description}
           </p>
         </div>
       </div>
