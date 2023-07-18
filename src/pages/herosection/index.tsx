@@ -18,7 +18,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.image_cont}>
-        <Image style={{ opacity: 0.7 }} alt="HeroBg" src={HeroSectionBg} />
+        {/* <Image style={{ opacity: 0.7 }} alt="HeroBg" src={HeroSectionBg} /> */}
       </div>
     </div>
   );
