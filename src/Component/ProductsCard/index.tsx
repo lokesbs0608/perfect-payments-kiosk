@@ -8,11 +8,12 @@ interface Props {
   description?: string;
   height?: number;
   width?: number;
+  
 }
 
-const ProductsCard = ({ title, height, width,description }: Props) => {
+const ProductsCard = ({ title, height, width,description  }: Props) => {
   return (
-    <div className={styles.shadow_container}>
+    <div id={title} className={styles.shadow_container}>
       <div className={styles.container}>
         <div className={styles.img_cont}>
           <Image

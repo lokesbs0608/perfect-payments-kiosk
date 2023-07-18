@@ -30,7 +30,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
-
 }
 
 .image_card_cont {
@@ -74,11 +73,9 @@
   left: -19%;
 }
 
-.font{
-font-family: 'Poppins',sans-serif;
-
+.font {
+  font-family: "Poppins", sans-serif;
 }
-
 
 .bloc2_mob_view {
   display: flex;
@@ -87,7 +84,7 @@ font-family: 'Poppins',sans-serif;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
-.mob_width{
+.mob_width {
   margin-left: 2rem;
   width: 50%;
 }
@@ -97,30 +94,29 @@ font-family: 'Poppins',sans-serif;
     gap: 1rem;
   }
   .image_cont2 {
-    left:unset;
+    left: unset;
     right: -1%;
     top: 12%;
   }
-  .font{
+  .font {
     font-size: 2rem;
   }
-  .shadow_bg{
+  .shadow_bg {
     flex-wrap: wrap;
     padding: 2rem;
   }
-.mob_width{
-  width: 100%;
-  margin: 0;
-}
-.cardcontainer {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-}
+  .mob_width {
+    width: 100%;
+    margin: 0;
+  }
+  .cardcontainer {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
 
-.cardcontainer:last-child {
-  max-width: 1400px;
-  white-space: nowrap;
-  flex: 0 0 300px;
-}
+  .cardcontainer:last-child {
+    max-width: 1400px;
+    white-space: nowrap;
+  }
 }
