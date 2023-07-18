@@ -1,55 +1,74 @@
 .heading {
-    font-size: 24px;
-    font-weight: 400;
-    color: #ffd500;
-    text-align: center;
-    font-family: "Montserrat";
-  }
-  .heading2 {
-    text-align: center;
-    font-family: "Poppins";
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: capitalize;
-    color: #fff;
-  }
-  .sub_heading {
-    color: #fff;
-    font-family: "Poppins";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-  }
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffd500;
+  text-align: center;
+  font-family: "Montserrat";
+}
+.heading2 {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #fff;
+}
+.sub_heading {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
 
+.shadow_bg {
+  min-width: 25rem;
+  border-radius: 8px;
+  background: #171d21;
+  min-height: 15rem;
+  padding: 2rem 2rem;
+}
 
-  .shadow_bg{
-    min-width: 25rem;
-    border-radius: 8px;
-    background:  #171d21;
-    min-height: 15rem;
-    padding: 2rem 2rem;
+.card_heading {
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  color: #fff;
+}
+.block1 {
+  padding: 5rem 5rem;
+  padding-bottom: 2rem;
+  width: 60%;
+}
+.block2 {
+  display: flex;
+  padding: 2rem 3rem;
+  align-items: center;
+}
+.mob_view {
+  display: flex;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 992px) {
+  .mob_view {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    max-width: 992px;
+    margin:0 auto;
+
   }
-
-  .card_heading {
-    text-align: left;
-    font-family: "Poppins";
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: capitalize;
-    color: #fff;
+  .mob_view_block {
+    padding: 0rem;
   }
   .block1{
-    padding: 5rem 5rem;
-    padding-bottom: 2rem;
+    width: 100%;
   }
-  .block2{
-    display: flex;
-    padding: 2rem 3rem;
-    align-items: center;
-  }
+}

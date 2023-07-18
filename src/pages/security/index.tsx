@@ -8,11 +8,11 @@ import Checkbox from "../../assets/Icons/Checkbox.svg";
 const Security = () => {
   const handleClick = () => {};
   return (
-    <div >
+    <div>
       <div className={styles.heading}>SECURITY</div>
       <div className={styles.heading2}>Security Features</div>
       <div className={styles.bg_shadow}>
-        <div className=" d-flex w-100  align-items-center  justify-content-center">
+        <div className=" d-flex w-100 flex-wrap  align-items-center  justify-content-center">
           <div className=" mr-5">
             <div className={styles.image_card_cont}>
               <div className={styles.card_container}>
@@ -69,7 +69,9 @@ const Security = () => {
             </p>
           </div>
         </div>
-        <div className="mt-3 d-flex w-100  justify-content-center  gap-5">
+        <div
+          className={`${styles.bloc2_mob_view}`}
+        >
           <div className="ml-5  ">
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Experience style and <br /> functionality with our <br />{" "}

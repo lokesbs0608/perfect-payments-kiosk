@@ -21,14 +21,14 @@ const ContacUs = () => {
       <div className={styles.heading}>CONTACT</div>
       <div className={styles.heading2}>Get In Touch</div>
       <div className={styles.shadow_bg}>
-        <div className="w-50 m-2">
+        <div className=" m-2">
           <CutomInput title="Name" onChange={handleChange} />
         </div>
-        <div className="d-flex">
-          <div className="w-50 m-2">
+        <div className="d-flex flex-wrap">
+          <div className=" m-2">
             <CutomInput title="Email ID" onChange={handleChange} />
           </div>
-          <div className="w-50 m-2">
+          <div className=" m-2">
             <CutomInput title="Email Address" onChange={handleChange} />{" "}
           </div>
         </div>
@@ -42,7 +42,7 @@ const ContacUs = () => {
             name="message"
             rows={4}
             inputProps={{ style: { color: "#fff",outline:'none',outlineColor:'transparent' } }}
-            sx={{backgroundColor:'#263138',width:'100%',borderRadius:'5px',outline:'none',outlineColor:'transparent',input: { color: '#fffs' } }}
+            sx={{backgroundColor:'#263138',width:'100%',borderRadius:'8px',outline:'none',outlineColor:'transparent',input: { color: '#fffs' } }}
           />
         </div>
 

@@ -13,8 +13,8 @@ const Features = () => {
   const shadowCard = (icon: any, title: string, description: string) => {
     return (
       <div
-        className="text-center d-flex flex-column align-items-center"
-        style={{ width: "15rem" ,minHeight:'40rem'}}
+        className={` ${styles.shadow_card_cont} text-center d-flex flex-column align-items-center`}
+      
       >
         <div className={styles.shadow_card}>
           <Image width={150} src={icon} alt="icon" />
@@ -29,7 +29,7 @@ const Features = () => {
 
   const GridCard = ({ data }: any) => {
     return (
-      <div className="d-flex flex-column gap-5">
+      <div className=" d-flex flex-column gap-5 mt-4">
         {data?.map((item: any) => {
           return (
             <div>{shadowCard(item?.icon, item?.title, item?.description)}</div>
@@ -92,11 +92,11 @@ const Features = () => {
     <div>
       <div className={styles.heading}>FEATURES</div>
       <div className={styles.heading2}>OUR FEATURES</div>
-      <div className="d-flex justify-content-between mt-5 ">
+      <div className="d-flex flex-wrap  justify-content-between mt-5 ">
         <GridCard data={obj1} />
-        <Image src={VerticalLine} width={3} height={100} alt="line" />
+        <Image className={styles.mob_hide} src={VerticalLine} width={3} height={100} alt="line" />
         <GridCard data={obj2} />
-        <Image src={VerticalLine} width={3} height={100} alt="line" />
+        <Image className={styles.mob_hide} src={VerticalLine} width={3} height={100} alt="line" />
         <GridCard data={obj3} />
       </div>
     </div>

@@ -8,13 +8,13 @@ const Aboutus = () => {
     <div>
       <div className={styles.heading}>ABOUT US</div>
       <div className={styles.heading2}>who are we</div>
-      <div className="d-flex gap-5 mt-5  justify-content-center">
-        <div style={{ width: "40%" }} className={styles.shadow_bg}>
+      <div className="d-flex gap-5 mt-5 flex-wrap  justify-content-center">
+        <div className={` ${styles.shadow_bg} ${styles.mob_width} `}>
           <div className={styles.img_cont}>
             <Image src={WhoweAreImage} alt="weare" />
           </div>
         </div>
-        <div style={{ width: "40%" }}>
+        <div className={styles.mob_width}>
           <div className={styles.card_heading}>
             We are Perfectpays based in the heart of Nottinghamshire
           </div>

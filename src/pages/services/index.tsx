@@ -9,9 +9,9 @@ const Services = () => {
     <div>
       <div className={styles.heading}>SERVICES</div>
       <div className={styles.heading2}>Services we offer</div>
-      <div className="d-flex  mt-5 gap-3">
+      <div className={` ${styles.mob_view} d-flex gap-3`}>
         <div
-          style={{ width: "45%" }}
+          
           className={`${styles.shadow_bg} ${styles.block1}`}
         >
           <div className={styles.card_heading}>Oiyaa technology</div>
@@ -24,7 +24,7 @@ const Services = () => {
             <Image width={350} src={Icon1} alt="ok" />
           </div>
         </div>
-        <div style={{ width: "55%" }} className="d-flex flex-column gap-3">
+        <div  className="d-flex flex-column gap-3">
           <div className={`${styles.shadow_bg} ${styles.block2} `}>
             <div style={{ width: "60%" }}>
               <div className={styles.card_heading}>
@@ -40,7 +40,7 @@ const Services = () => {
             </div>
           </div>
           <div className={`${styles.shadow_bg}`}>
-            <div className={`${styles.shadow_bg} ${styles.block2} `}>
+            <div className={` ${styles.block2} ${styles.mob_view_block} `}>
               <div>
                 <Image width={250} src={Icon3} alt="ok" />
               </div>

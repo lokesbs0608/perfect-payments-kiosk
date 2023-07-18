@@ -13,7 +13,7 @@ const OurValues = () => {
         className={styles.card_cont}
       >
         <div className={styles.image_cont}>
-          <Image src={icon} alt="man" width={230} />
+          <Image src={icon} alt="man" />
         </div>
         <div className={styles.title}>{title}</div>
         <p className={styles.description}>{description}</p>
@@ -48,8 +48,8 @@ const OurValues = () => {
       <div className={styles.heading}>OUR VALUES</div>
       <div className={styles.heading2}>What we believe in</div>
       <div
-        style={{ marginTop: "12rem" }}
-        className="d-flex align-items-center justify-content-center  gap-5"
+       
+        className={` ${styles.mob_margin_top} d-flex align-items-center flex-wrap justify-content-center  gap-5`}
       >
         {obj.map((items) => {
           return (

@@ -18,8 +18,8 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className="d-flex">
-        <div className="w-50">
-          <Image src={FooterIcon} alt="icons" />
+        <div className={styles.footer_icon_cont}>
+          <Image width={150} src={FooterIcon} alt="icons" />
         </div>
         <div className="w-50">
           <div className="d-flex flex-wrap">

@@ -19,7 +19,7 @@
 }
 .card_cont {
   border-radius: 24px;
-  background: #1E262B;
+  background: #1e262b;
   max-width: 22rem;
   min-height: 25rem;
   position: relative;
@@ -43,4 +43,20 @@
   position: absolute;
   top: -35%;
   right: -15%;
+  width: 200px;
+}
+
+.mob_margin_top {
+  margin-top: 12rem;
+}
+
+@media screen and (max-width: 992px) {
+  .image_cont {
+    width: 150px;
+    top: 2%;
+    right: -10%;
+  }
+  .mob_margin_top {
+    margin-top: 3rem;
+  }
 }

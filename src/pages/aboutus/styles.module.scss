@@ -50,3 +50,11 @@
     text-transform: capitalize;
     color: #fff;
   }
+  .mob_width{
+    width: 40%;
+  }
+  @media screen and (max-width: 992px) {
+    .mob_width{
+      width: 100%;
+    }
+  }

@@ -44,3 +44,20 @@
   text-transform: capitalize;
   color: #fff;
 }
+
+.shadow_card_cont{
+  width: 15rem;
+  height: 35rem;
+}
+.mob_hide{
+  display: block;
+}
+@media screen and (max-width: 992px) {
+  .mob_hide{
+    display: none;
+  }
+  .shadow_card_cont{
+    width: 100%;
+    height: 100%;
+  }
+}
