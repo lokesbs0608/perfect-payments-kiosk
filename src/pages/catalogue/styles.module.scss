@@ -112,9 +112,15 @@ font-family: 'Poppins',sans-serif;
   width: 100%;
   margin: 0;
 }
-.cardcontainer{
-  overflow-x: scroll;
-  overflow-y: visible;
+.cardcontainer {
+  display: flex;
+  overflow-x: auto;
   scroll-behavior: smooth;
+}
+
+.cardcontainer:last-child {
+  max-width: 1400px;
+  white-space: nowrap;
+  flex: 0 0 300px;
 }
 }

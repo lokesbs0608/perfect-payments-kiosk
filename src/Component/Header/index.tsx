@@ -69,9 +69,21 @@ const Header = () => {
               )}
               {submenuopen && (
                 <div>
-                  <div className={styles.mob_menus}>Perfect Visionary</div>
-                  <div className={styles.mob_menus}>Perfect Smart</div>
-                  <div className={styles.mob_menus}>Perfect Indie</div>
+                  <div>
+                    <a href="#Visionary" className={styles.mob_menus}>
+                      Perfect Visionary
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#Smart" className={styles.mob_menus}>
+                      Perfect Smart
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#Indie" className={styles.mob_menus}>
+                      Perfect Indie
+                    </a>
+                  </div>
                 </div>
               )}
             </div>
