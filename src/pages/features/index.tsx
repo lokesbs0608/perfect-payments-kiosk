@@ -14,7 +14,7 @@ const Features = () => {
     return (
       <div
         className="text-center d-flex flex-column align-items-center"
-        style={{ width: "15rem" }}
+        style={{ width: "15rem" ,minHeight:'40rem'}}
       >
         <div className={styles.shadow_card}>
           <Image width={150} src={icon} alt="icon" />

@@ -44,7 +44,7 @@ const Catalogue = () => {
           Captivating and Space-Efficient <br />
           Kiosk Designs
         </h1>
-        <div className="mt-3 d-flex w-100 align-items-center justify-content-center gap-5">
+        <div className="pr-5 mt-3 d-flex w-100 align-items-center gap-5">
           <div className="mr-5">
             <div className={styles.image_card_cont}>
               <div className={styles.card_container}></div>
@@ -53,7 +53,7 @@ const Catalogue = () => {
               </div>
             </div>
           </div>
-          <div className="ml-5">
+          <div className="ml-5 pl-5">
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Experience style and <br /> functionality with our <br />{" "}
               customizable kiosks.
@@ -71,12 +71,12 @@ const Catalogue = () => {
           </div>
         </div>
         <div className={styles.shadow_bg}>
-          <div>
+          <div className={styles.font} >
             Flexible Installation <br /> Choices for Adaptability <br /> and
             Convenience
           </div>
           <div>
-            <Image width={400} src={SeacrhIlus} alt="ilu" />
+            <Image width={350} src={SeacrhIlus} alt="ilu" />
           </div>
         </div>
         <div

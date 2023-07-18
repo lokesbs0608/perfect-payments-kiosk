@@ -8,7 +8,7 @@ import Checkbox from "../../assets/Icons/Checkbox.svg";
 const Security = () => {
   const handleClick = () => {};
   return (
-    <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
+    <div >
       <div className={styles.heading}>SECURITY</div>
       <div className={styles.heading2}>Security Features</div>
       <div className={styles.bg_shadow}>
