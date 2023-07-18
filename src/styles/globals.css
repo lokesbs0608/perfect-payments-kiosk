@@ -39,6 +39,29 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.css-6hp17o-MuiList-root-MuiMenu-list{
-  background-color: "#0f4c81"!important;
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  background-color: "#0f4c81" !important;
 }
+
+@media screen and (max-width: 992px) {
+  .homePage_contaniner {
+    padding-top: 2rem;
+  }
+}
+/* For Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 1px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #88888800; /* Set the color of the scrollbar thumb */
+}
+
+/* For Firefox */
+/* You may need to use vendor prefixes for older versions of Firefox */
+

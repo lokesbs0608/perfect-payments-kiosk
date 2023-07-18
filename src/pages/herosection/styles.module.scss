@@ -29,3 +29,18 @@
     color: #e9c406;
   }
 }
+
+.mob_view{
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .heading {
+    font-size: 1.7rem;
+  }
+  .container{
+    flex-direction: column-reverse;
+  }
+}

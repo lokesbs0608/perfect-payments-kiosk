@@ -9,12 +9,11 @@
 .container {
   width: 100%;
   border-radius: 8px;
-  background: linear-gradient(to right,   #002640, 50%, #1f1d2100);
+  background: linear-gradient(to right, #002640, 50%, #1f1d2100);
   min-height: 30rem;
   position: relative;
   padding: 10px 20px;
   margin-top: 6rem;
-
 }
 .img_cont {
   position: absolute;
@@ -30,5 +29,14 @@
   h1 {
     color: #295891;
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .shadow_container {
+    min-height: 40rem;
+  }
+  .container {
+    min-width: 250px;
   }
 }

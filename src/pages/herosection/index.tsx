@@ -8,13 +8,17 @@ const HeroSection = () => {
 
   return (
     <div className={styles.container}>
-      <div className="px-3 py-5 justify-content-center  w-50 d-flex flex-column">
+      <div className={styles.mob_view}>
         <div className={styles.heading}>
           {" "}
           <span> Perfect Payments :</span> <br /> Your Perfect Partner
         </div>
         <div style={{ width: "50%", paddingLeft: "2rem" }}>
-          <CustomButton backGroundColor={'#0F4C81'} onClick={handleClick} title="Know More" />
+          <CustomButton
+            backGroundColor={"#0F4C81"}
+            onClick={handleClick}
+            title="Know More"
+          />
         </div>
       </div>
       <div className={styles.image_cont}>
