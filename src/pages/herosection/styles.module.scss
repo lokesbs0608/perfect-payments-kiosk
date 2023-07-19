@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400&family=Poppins:wght@400;600;700&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap");
 
 .container {
   width: 100%;
@@ -12,7 +10,6 @@
   justify-content: space-between;
   height: 508px;
   flex-shrink: 0;
-
 }
 .image_cont {
   width: 40%;
@@ -21,8 +18,7 @@
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
   background: linear-gradient(90deg, #171d21 0%, rgba(23, 29, 33, 0) 100%),
-    url('../../assets/Images/HeroSectionBG.png');
-
+    url("../../assets/Images/HeroSectionBG.png");
 }
 .heading {
   font-size: 56px;
@@ -36,7 +32,7 @@
   }
 }
 
-.mob_view{
+.mob_view {
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -46,10 +42,21 @@
   .heading {
     font-size: 1.7rem;
   }
-  .container{
-    flex-direction: column-reverse;
+  .image_cont {
+    width: 100%;
+    border-radius: 24px;
+    background: linear-gradient(90deg, #171d21 0%, rgba(23, 29, 33, 0) 100%),
+    url("../../assets/Images/HeroSectionBG.png");
+    background-size: cover;
   }
-  .heading2{
+  .container {
+    flex-direction: column;
+    background: transparent;
+  }
+  .heading2 {
     font-size: 2rem;
-      }
+  }
+  .mob_view {
+    padding: 2rem 0rem;
+  }
 }

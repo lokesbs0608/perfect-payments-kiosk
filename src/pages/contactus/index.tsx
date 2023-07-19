@@ -66,9 +66,9 @@ const ContacUs = () => {
       </div>
       <div style={{ marginTop: "4rem" }}>
         <div className={styles.bg_shadow}>
-          {images.map((items) => {
+          {images.map((items,index) => {
             return (
-              <div>
+              <div key={index}>
                 <Image src={items} alt="icon" />
               </div>
             );

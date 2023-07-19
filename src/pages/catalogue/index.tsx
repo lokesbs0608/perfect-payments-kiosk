@@ -5,7 +5,7 @@ import CustomButton from "@/Component/atoms/CustomButton";
 import MainKiosk from "../../assets/Images/KisokMain.svg";
 import MainKiosk2 from "../../assets/Images/KioskMain2.svg";
 import Image from "next/image";
-import SeacrhIlus from "../../assets/Illus/SearchIlus.svg";
+import SeacrhIlus from "../../assets/Illus/Searchilus.png";
 
 const Catalogue = () => {
   const handleClick = () => {};

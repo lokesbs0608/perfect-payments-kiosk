@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400&family=Poppins:wght@400;600;700&display=swap");
 
-
 .heading {
   font-size: 24px;
   font-weight: 400;
   color: #ffd500;
   text-align: center;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .heading2 {
   text-align: center;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 600;
@@ -20,7 +19,7 @@
 }
 .sub_heading {
   color: #fff;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -38,7 +37,7 @@
 
 .card_heading {
   text-align: left;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +46,7 @@
   color: #fff;
 }
 .block1 {
-  padding: 5rem 5rem;
+  padding:4rem 4rem;
   padding-bottom: 2rem;
   width: 60%;
 }
@@ -60,24 +59,42 @@
   display: flex;
   margin-top: 3rem;
 }
+.mob_biews_flex {
+  display: block;
+}
 @media screen and (max-width: 992px) {
   .mob_view {
     flex-wrap: wrap;
     margin-top: 3rem;
     max-width: 992px;
-    margin:0 auto;
-
+    margin: 0 auto;
   }
   .mob_view_block {
     padding: 0rem;
   }
-  .block1{
+  .block1 {
     width: 100%;
+    padding: 1rem;
   }
-  .shadow_bg{
+  .shadow_bg {
     min-width: 15rem;
   }
-  .heading2{
+  .heading2 {
     font-size: 2rem;
-      }
+  }
+  .mob_biews_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .mob_view_width{
+    width: 80%;
+  }
+  .mob_view_cont{
+    width: 10rem;
+    height: 10rem;
+  }
 }

@@ -13,7 +13,7 @@ const HeroSection = () => {
           {" "}
           <span> Perfect Payments :</span> <br /> Your Perfect Partner
         </div>
-        <div style={{ width: "50%", paddingLeft: "2rem" }}>
+        <div style={{ width: "50%", paddingLeft: "2rem" ,marginTop:'1rem' }}>
           <CustomButton
             backGroundColor={"#0F4C81"}
             onClick={handleClick}

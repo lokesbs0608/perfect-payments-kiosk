@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import Icon from "../../assets/Images/KioaskProduct.svg";
+import Icon from "../../assets/Images/MainKioask2.png";
 
 interface Props {
   title: string;

@@ -25,20 +25,23 @@ const OurValues = () => {
     {
       id: 0,
       title: "Integrity",
-      description: "Our commitment is to provide you with a service you can trust, which is why transparency is at the heart of our approach.",
+      description:
+        "Our commitment is to provide you with a service you can trust, which is why transparency is at the heart of our approach.",
       icon: Man1,
     },
     {
       id: 0,
       title: "Neutrality ",
-      description: "Having no preconceived judgments or biases allows us to embrace new ideas and practices, following that we can respond directly to your unique needs",
+      description:
+        "Having no preconceived judgments or biases allows us to embrace new ideas and practices, following that we can respond directly to your unique needs",
       icon: Man2,
-      bg_color:'#171D21'
+      bg_color: "#171D21",
     },
     {
       id: 0,
       title: "Equality",
-      description: "Our value of the individual fosters a culture of collaboration and respect, we empower each employee, partner and consumer to strive towards their full potential within all realms of business. A win for you is a win for us!",
+      description:
+        "Our value of the individual fosters a culture of collaboration and respect, we empower each employee, partner and consumer to strive towards their full potential within all realms of business. A win for you is a win for us!",
       icon: Man3,
     },
   ];
@@ -48,17 +51,18 @@ const OurValues = () => {
       <div className={styles.heading}>OUR VALUES</div>
       <div className={styles.heading2}>What we believe in</div>
       <div
-       
         className={` ${styles.mob_margin_top} d-flex align-items-center flex-wrap justify-content-center  gap-5`}
       >
-        {obj.map((items) => {
+        {obj.map((items, index) => {
           return (
-            <Card
-              icon={items?.icon}
-              title={items?.title}
-              description={items?.description}
-              bg_color={items?.bg_color}
-            />
+            <div key={index}>
+              <Card
+                icon={items?.icon}
+                title={items?.title}
+                description={items?.description}
+                bg_color={items?.bg_color}
+              />
+            </div>
           );
         })}
       </div>

@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="d-flex flex-wrap">
             {links.map((item, index) => {
               return (
-                <div className={styles.options}>
+                <div key={index} className={styles.options}>
                   <div style={{ display: "inline-block", cursor: "pointer" }}>
                     {item?.title}
                   </div>

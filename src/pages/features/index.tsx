@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import Icon1 from "../../assets/Illus/features1.svg";
-import Icon4 from "../../assets/Illus/features4.svg";
-import Icon2 from "../../assets/Illus/features2.svg";
-import Icon5 from "../../assets/Illus/features5.svg";
-import Icon3 from "../../assets/Illus/features3.svg";
-import Icon6 from "../../assets/Illus/features6.svg";
+import Icon1 from "../../assets/Illus/features1.png";
+import Icon4 from "../../assets/Illus/features4.png";
+import Icon2 from "../../assets/Illus/features2.png";
+import Icon5 from "../../assets/Illus/features5.png";
+import Icon3 from "../../assets/Illus/features3.png";
+import Icon6 from "../../assets/Illus/features6.png";
 import VerticalLine from "../../assets/Illus/VerticalLine.svg";
 
 const Features = () => {
@@ -17,7 +17,7 @@ const Features = () => {
       
       >
         <div className={styles.shadow_card}>
-          <Image width={150} src={icon} alt="icon" />
+          <Image width={120} src={icon} alt="icon" />
         </div>
         <div className="mt-4">
           <div className={styles.card_heading}>{title}</div>
@@ -30,9 +30,9 @@ const Features = () => {
   const GridCard = ({ data }: any) => {
     return (
       <div className=" d-flex flex-column gap-5 mt-4">
-        {data?.map((item: any) => {
+        {data?.map((item: any,index:any) => {
           return (
-            <div>{shadowCard(item?.icon, item?.title, item?.description)}</div>
+            <div key={index}>{shadowCard(item?.icon, item?.title, item?.description)}</div>
           );
         })}
       </div>

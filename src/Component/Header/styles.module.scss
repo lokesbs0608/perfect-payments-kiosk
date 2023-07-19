@@ -41,6 +41,15 @@
   font-weight: 400;
   line-height: 10px;
 }
+.mob_menus{
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding-top: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat",sans-serif;
+  padding: 8px;
+}
 .mob_view {
   display: none;
 }
@@ -86,5 +95,6 @@
     color: #fff;
     font-family: "Montserrat",sans-serif;
   }
+ 
 }
 

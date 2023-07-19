@@ -4,6 +4,7 @@
   align-items: flex-end;
   display: flex;
   width: 100%;
+  animation: ease-in-out;
 }
 
 .container {
@@ -32,5 +33,19 @@
     color: #295891;
     font-size: 2rem;
     font-weight: bold;
+  }
+}
+
+.shadow_container:hover {
+  animation: scaling 1s forwards ease-in-out;
+  cursor: pointer;
+}
+
+@keyframes scaling {
+  0% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import PerfectLogo from "../../assets/Icons/PerfectP.svg";
+import PerfectLogo from "../../assets/Icons/CompleteLogo.png";
 import BasicMenu from "../Menubar";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -23,13 +23,15 @@ const Header = () => {
       <div className={styles.container}>
         <div>
           <div className="d-flex align-items-center text-white ">
-            <Image width={30} src={PerfectLogo} alt="logo" />
-            <div className={styles.perfect_text}>PERFECT</div>
+            <Image width={150} src={PerfectLogo} alt="logo" />
+            {/* <div className={styles.perfect_text}>PERFECT</div> */}
           </div>
-          <div className={styles.kiosk_text}>KIOSK</div>
+          {/* <div className={styles.kiosk_text}>KIOSK</div> */}
         </div>
         <div className={` ${styles.web_views}`}>
-          <BasicMenu />
+          <div className="d-flex align-items-center gap-2">
+            <BasicMenu />
+          </div>
           <a className={styles.nav_text}>Join Us</a>
           <a className={styles.nav_text}>About Us</a>
           <a href="#contactus" className={styles.nav_text}>
@@ -43,13 +45,13 @@ const Header = () => {
               {open ? (
                 <CloseIcon
                   onClick={handleOpen}
-                  sx={{ color: "#fff", fontSize: "3rem" }}
+                  sx={{ color: "#fff", fontSize: "2.5rem" }}
                   fontSize="large"
                 />
               ) : (
                 <MenuIcon
                   onClick={handleOpen}
-                  sx={{ color: "#fff", fontSize: "3rem" }}
+                  sx={{ color: "#fff", fontSize: "2.5rem" }}
                   fontSize="large"
                 />
               )}
@@ -87,9 +89,9 @@ const Header = () => {
                 </div>
               )}
             </div>
-            <div className={styles.mob_menus}>About Us</div>{" "}
-            <div className={styles.mob_menus}>Contact us</div>
-            <div className={styles.mob_menus}>Book a Demo</div>
+            <a className={styles.mob_menus}>About Us</a>{" "}
+            <a href="#contactus" className={styles.mob_menus}>Contact us</a>
+            <a className={styles.mob_menus}>Book a Demo</a>
           </div>
         )}
       </div>
