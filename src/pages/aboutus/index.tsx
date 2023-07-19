@@ -18,7 +18,7 @@ const Aboutus = () => {
           <div className={styles.card_heading}>
             We are Perfectpays based in the heart of Nottinghamshire
           </div>
-          <p style={{ color: "#fff" }}>
+          <p className="outfit" style={{ color: "#fff" }}>
             We take pride in providing revolutionary payment solutions to
             businesses through our industry leading Perfect Kiosk. The Perfect
             Kiosk provides a seamless and interactive self-service experience,

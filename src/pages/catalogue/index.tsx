@@ -53,13 +53,13 @@ const Catalogue = () => {
               </div>
             </div>
           </div>
-          <div className="ml-5 pl-5">
+          <div className="outfit ml-5 pl-5">
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Experience style and <br /> functionality with our <br />{" "}
               customizable kiosks.
             </h1>
             <p
-              className="mt-3"
+              className="outfit mt-3"
               style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               Seamlessly integrate our sleek kiosks into your <br /> business
@@ -79,7 +79,7 @@ const Catalogue = () => {
             <Image width={350} src={SeacrhIlus} alt="ilu" />
           </div>
         </div>
-        <div style={{ width: "100%" }} className={`${styles.bloc2_mob_view} `}>
+        <div style={{ width: "100%" }} className={`${styles.bloc2_mob_view} outfit `}>
           <div className={styles.mob_width}>
             <h1 style={{ width: "100%", color: "#fff", fontSize: "2rem" }}>
               Streamlined In-Store <br />

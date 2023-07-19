@@ -21,7 +21,7 @@ const Features = () => {
         </div>
         <div className="mt-4">
           <div className={styles.card_heading}>{title}</div>
-          <div style={{ color: "#fff",textAlign:'left' }}>{description}</div>
+          <div className="outfit" style={{ color: "#fff",textAlign:'left' }}>{description}</div>
         </div>
       </div>
     );

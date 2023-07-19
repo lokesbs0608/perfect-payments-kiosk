@@ -15,7 +15,7 @@ const Services = () => {
           className={`${styles.shadow_bg} ${styles.block1}`}
         >
           <div className={styles.card_heading}>Oiyaa technology</div>
-          <p style={{ color: "#fff" }}>
+          <p className="outfit" style={{ color: "#fff" }}>
             Our usage of Oiyaa software allows us to fill up quiet periods in
             your business by offering tailored discounts and an online booking
             service.
@@ -30,7 +30,7 @@ const Services = () => {
               <div className={styles.card_heading}>
               Easytip 
               </div>
-              <p style={{ color: "#fff" }}>
+              <p className="outfit" style={{ color: "#fff" }}>
               Need a modern day solution to the tipping dilemma? Look no further than our partner
               </p>
             </div>

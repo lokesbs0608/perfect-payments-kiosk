@@ -29,7 +29,7 @@ const Security = () => {
               robust payment processing capabilities.
             </h1>
             <p
-              className="mt-3"
+              className="mt-3 outfit"
               style={{
                 fontSize: "20px",
                 textAlign: "justify",
@@ -46,25 +46,25 @@ const Security = () => {
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>100% Protected Payment Processing</div>
+                <div className="mob_fonts_security outfit">100% Protected Payment Processing</div>
               </div>
               <div className="d-flex align-items-center gap-2 mt-1">
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>Secure and Automated Transactions</div>
+                <div className="mob_fonts_security outfit">Secure and Automated Transactions</div>
               </div>
               <div className="d-flex align-items-center gap-2 mt-1">
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>Various payment methods supported</div>
+                <div className="mob_fonts_security outfit">Various payment methods supported</div>
               </div>
               <div className="d-flex align-items-center gap-2 mt-1">
                 <div>
                   <Image src={Checkbox} alt="icon" />
                 </div>
-                <div>End-to-end data encryption software</div>
+                <div className="mob_fonts_security outfit">End-to-end data encryption software</div>
               </div>
             </p>
           </div>
@@ -78,7 +78,7 @@ const Security = () => {
               customizable kiosks.
             </h1>
             <p
-              className="mt-3"
+              className="mt-3 outfit"
               style={{ fontSize: "20px", textAlign: "justify", color: "#fff" }}
             >
               Seamlessly integrate our sleek kiosks <br /> into your business
