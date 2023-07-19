@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400&family=Poppins:wght@400;600;700&display=swap");
+
+
 .heading {
   font-size: 24px;
   font-weight: 400;
   color: #ffd500;
   text-align: center;
-  font-family: "Montserrat";
+  font-family: "Montserrat",sans-serif;
 }
 .heading2 {
   text-align: center;
-  font-family: "Poppins";
+  font-family: "Poppins",sans-serif;
   font-size: 3rem;
   font-style: normal;
   font-weight: 600;
@@ -17,7 +20,7 @@
 }
 .sub_heading {
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Poppins",sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +38,7 @@
 
 .card_heading {
   text-align: left;
-  font-family: "Poppins";
+  font-family: "Poppins",sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;

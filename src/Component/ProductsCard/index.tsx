@@ -24,9 +24,9 @@ const ProductsCard = ({ title, height, width,description  }: Props) => {
           />
         </div>
         <div className={styles.content_cont}>
-          <h1>Perfect</h1>
-          <h1 style={{color:'#FFD500'}} >{title}</h1>
-          <p className="text-white">
+          <h2>Perfect</h2>
+          <h1 style={{color:'#FFD500',fontWeight:'bold',fontSize:'2.2rem'}} >{title}</h1>
+          <p style={{textAlign:'justify',width:'80%'}} className="text-white">
            {description}
           </p>
         </div>
