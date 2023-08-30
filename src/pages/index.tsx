@@ -1,49 +1,45 @@
-import Header from "../Component/Header";
-import HeroSection from "./herosection";
-import Catalogue from "./catalogue";
-import Features from "./features";
-import Services from "./services";
-import Aboutus from "./aboutus";
-import OurValues from "./ourvalues";
-import ContacUs from "./contactus";
-import Footer from "../Component/Footer";
-import Security from "./security";
+// import { Inter } from 'next/font/google'
+import Header from "@/Components/header";
+import Footer from "@/Components/Footer";
+// const inter = Inter({ subsets: ['latin'] })
+
+import IndustriesWeProvideServicesFor from "../Components/IndustriesWeProvideServicesFor/index";
+
+import WhyChosePerfectCorpeates from "../Components/WhyChoosePerfectCorprates/index";
+import AboutUs from "../Components/Aboutus";
+import OurTeam from "../Components/OurTeam";
+import HeroSection from "@/Components/Herosection";
+import ContactUs from "@/Components/ContactUs";
+
 
 export default function Home() {
+  
+ 
   return (
-    <div className="theme_bg">
-      <div className="homePage_contaniner">
-        <div id="header">
-          <Header />
-        </div>
-        <div id="herosection" className="mt-5">
-          <HeroSection />
-        </div>
-        <div id="catalogue" className="mt-5">
-          <Catalogue />
-        </div>
-        <div id="features" className="mt-5">
-          <Features />
-        </div>
-        <div className="mt-5" id="services">
-          <Services />
-        </div>
-        <div className="mt-5" id="security">
-          <Security />
-        </div>
-        <div id="aboutus" className="mt-5">
-          <Aboutus />
-        </div>
-        <div className="mt-5" id="ourvalues">
-          <OurValues />
-        </div>
-        <div className="mt-5" id="contactus">
-          <ContacUs />
-        </div>
-        <div className="mt-5" id="footer">
+    <div>
+      
 
-        <Footer />
-        </div>
+       <HeroSection />
+      
+
+      <div id="aboutus">
+        <AboutUs />
+      </div>
+      
+      <div id="whychoose">
+        <WhyChosePerfectCorpeates />
+      </div>
+
+      <div id="industries">
+        <IndustriesWeProvideServicesFor />
+      </div>
+
+      <div id="ourteam">
+        <OurTeam />
+      </div>
+
+      <div id="contactus">
+        <ContactUs />
       </div>
     </div>
   );

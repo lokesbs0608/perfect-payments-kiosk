@@ -1,0 +1,29 @@
+
+.bg {
+  background-image: linear-gradient(
+      105.19deg,
+      rgba(15, 15, 15, 0.86) 13.06%,
+      rgba(0, 0, 0, 0.75) 95.52%
+    ),
+    url("../../../public/assets/bg_images/industriesBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+@media  (max-width:767px) {
+  .bg{
+ height: 100%;
+  }
+  
+}
+
+
+.titles {
+  color: #66c1bf;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 10px;
+}

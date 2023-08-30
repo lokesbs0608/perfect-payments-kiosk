@@ -1,0 +1,32 @@
+.bg {
+  background-image: linear-gradient(
+      105.19deg,
+      rgba(15, 15, 15, 0.86) 13.06%,
+      rgba(0, 0, 0, 0.75) 95.52%
+    ),
+    url("../../../public/assets/bg_images/aboutusBg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.blur_bg {
+  background: linear-gradient(#45494d66, #45494d5c);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  border: 2px solid #fff;
+
+  padding: 20px;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #66c1bf;
+}
+.description {
+  font-size: 1rem;
+  color: #fff;
+  padding: 5px 15px;
+}

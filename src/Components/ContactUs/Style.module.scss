@@ -1,0 +1,62 @@
+.bg{
+background-image: linear-gradient(
+      105.19deg,
+      rgba(15, 15, 15, 0.86) 13.06%,
+      rgba(0, 0, 0, 0.75) 95.52%
+    ),
+    url('../../../public/assets/bg_images/contactus_bg.svg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+}
+
+.titles{
+    font-weight: 600;
+    font-size:2.5rem ;
+    color: #FFFFFF;
+    border-bottom: solid 2px gray;
+    cursor: pointer;
+}
+
+.contenttext{
+ color: #FFFFFF;
+ font-weight: 400;
+ font-size: 1.5rem;
+}
+
+.stepbar{
+    border-bottom: '5px #66C1BF solid';
+    border-end-start-radius: 5px;
+   
+}
+
+
+@media  (max-width:767px) {
+    .bg{
+        background-image: linear-gradient(
+              105.19deg,
+              rgba(15, 15, 15, 0.86) 13.06%,
+              rgba(0, 0, 0, 0.75) 95.52%
+            ),
+            url('../../../public/assets/bg_images/contactus_bg.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        }
+        
+
+    .titles{
+        font-weight: 600;
+        font-size:4rem ;
+        color: #FFFFFF;
+       border-bottom: none;
+    }
+    .contenttext{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 2rem;
+       }
+    
+  }

@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600&family=Poppins:wght@400;600;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -20,79 +17,58 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  /* font-family: 'Poppins', sans-serif; */
+
+ 
 }
 
+/* For WebKit-based browsers */
+body::-webkit-scrollbar {
+  padding-right: 25px;
+  width: 5px; /* Width of the scrollbar */
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color: #66C1BF; /* Color of the thumb */
+  border-radius: 4px; /* Rounded corners of the thumb */
+}
 
-.theme_bg {
-  background-color: #263138;
+body::-webkit-scrollbar-track {
+  background-color: #fff; /* Color of the track */
+}
+
+.bg{
+  /* background-image: linear-gradient(to right, rgb(0 0 0 / 78%) 37%, #0000003d 83%), url('../../public/assets/bg_images/bg1.svg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 100%;
+ height: auto;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; /* 1rem = 10px; 10px/16px = 62.5% */
 }
 
-.homePage_contaniner {
-  max-width: 1220px;
-  margin: 0 auto;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.css-6hp17o-MuiList-root-MuiMenu-list {
-  background-color: "#0f4c81";
-  padding-top: 0px;
-  overflow: hidden;
-  padding-bottom: 0px;
-  border-radius: 0px;
-}
-
-@media screen and (max-width: 992px) {
-  .homePage_contaniner {
-    padding-top: 2rem;
-  }
-
-  .mob_fonts_security {
-    font-size: 1rem;
-    text-align: left;
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  html {
+    font-size: 75%; /* 1rem = 12px; 12px/16px = 75% */
   }
 }
 
-/* For Webkit-based browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  width: 1px;
-  /* Adjust the width of the scrollbar */
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  /* Set the background color of the scrollbar track */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #88888800;
-  /* Set the color of the scrollbar thumb */
-}
-
-/* For Firefox */
-/* You may need to use vendor prefixes for older versions of Firefox */
-
-.outfit {
-  font-family: 'Outfit', sans-serif;
-}
-
-.highlighted {
-  animation: scaling 1s forwards ease-in-out;
-}
-
-@keyframes scaling {
-  0% {
-    scale: 1.05;
-  }
-
-  100% {
-    scale: 1;
+/* Media query for even larger screens */
+@media (min-width: 992px) {
+  html {
+    font-size: 87.5%; /* 1rem = 14px; 14px/16px = 87.5% */
   }
 }
+
+/* Media query for extra large screens */
+@media (min-width: 1200px) {
+  html {
+    font-size: 100%; /* 1rem = 16px; 16px/16px = 100% */
+  }
+}
+
+
+
